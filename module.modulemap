@@ -1,5 +1,5 @@
 
-module CZMQ {
+module CZMQ [system] {
     header "/usr/local/include/czmq.h"
     export *
     link "czmq"
