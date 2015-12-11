@@ -2,4 +2,5 @@
 module CZMQ {
     header "/usr/local/include/czmq.h"
     export *
+    link "czmq"
 }
